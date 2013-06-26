@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
             Event event = new Event();
             //Add new event
             event.setEventTime(System.currentTimeMillis());
-            event.setUserName("Jon");
+            event.setUserName("Jack");
             event.setTypeId(1);
             event.insert(getBaseContext());
             //Add one more event
